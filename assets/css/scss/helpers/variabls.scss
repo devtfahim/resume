@@ -1,0 +1,165 @@
+/************************** 
+* Main Color
+***************************/
+
+
+/* 1-  Color */
+
+$mainColor: #ff3d4f;
+$colorLight: #ffffff;
+$mainColorTwo :#9da1a5;
+$mainColorThree :#333333;
+$mainColorFour :#323232;
+$mainColorFive :#101010;
+$mainColorSix :#000000;
+
+/* 2-  Background */
+
+$mainbgone:#191a1c;
+$mainbgtwo: #1d1e20;
+$mainbgthre: #ffffff;
+$mainbgFour: #cccccc;
+$mainbgFive: #333333;
+$mainbgSix: #535454;
+$mainbgSeven: #000000;
+
+/* 3-  Border */
+
+$brdcolor: rgba(#fff, 0.1);
+
+/* Alert */
+
+$alertbg: #37983b;
+
+/************************** 
+* Dark Home Page one
+***************************/
+
+
+/************************** 
+* Light Home Page one
+***************************/
+
+
+/************************** 
+* List Color
+***************************/
+
+$orangeColor: #f7971c;
+$goldColor: #c79864;
+$greenColor: #6b9839;
+$blueColor: #4d74e6;
+$purpleColor :#8a2be2;
+$yellowColor: #f1df44;
+$roseColor: #e350b8;
+
+/************************** 
+* Border Resume
+***************************/
+
+$resumeBorderOne: #ffdb66;
+$resumeBorderTwo: #0cc7dd;
+$resumeBorderThre: #f25850;
+$resumeBgOne: #ffdb66;
+$resumeBgTwo: #0cc7dd;
+$resumeBgThre: #f25850;
+
+/************************** 
+* Main Fonts
+***************************/
+
+$fontOne: "Nunito";
+$fontTwo: "Saira";
+
+/************************** 
+* Float fixing
+***************************/
+
+$flot-left: left;
+$flot-right: right;
+
+/************************** 
+* Text Align
+***************************/
+
+$text-left: left;
+$text-center: center;
+$text-right: right;
+
+/************************** 
+* Font-weight
+***************************/
+
+$font-100: 100;
+$font-200: 200;
+$font-300: 300;
+$font-400: 400;
+$font-500: 500;
+$font-600: 600;
+$font-700: 700;
+$font-800: 800;
+
+/************************** 
+* Transition
+***************************/
+
+.transition {
+    -webkit-transition: all .5s ease-in-out !important;
+    -o-transition: all .5s ease-in-out !important;
+    transition: all .5s ease-in-out !important;
+}
+
+
+/************************** 
+* Box Shadow
+***************************/
+
+.box-shadownone {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/************************** 
+* Box Sizing
+***************************/
+
+.box-sizing {
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/************************** 
+* Transition Transforme
+***************************/
+
+.transTransforme {
+    -webkit-transition: transform 330ms ease-out;
+    -moz-transition: transform 330ms ease-out;
+    -o-transition: transform 330ms ease-out;
+    transition: transform 330ms ease-out;
+}
+
+
+/************************** 
+* Media Queries
+***************************/
+
+$minMobile: "(max-width: 320px)";
+$galMobile: "(max-width: 480px)";
+$kindlefire: "(max-width: 600px)";
+$maxMobile: "(max-width: 767px)";
+$minSmall: "(min-width: 768px)";
+$ipSmall: "(max-width: 768px)";
+$maxSmall: "(max-width: 991px)";
+$minMedieum: "(min-width: 992px)";
+$maxMedieum: "(max-width: 992px)";
+$maxlarge: "(max-width: 1199px)";
+$minlarge: "(min-width: 1200px)";
+$minmax: "(min-width: 768px) and (max-width: 991px)";
+$minmaxLarg: "(min-width: 992px) and (max-width: 1199px)";
+$maxLargFix: "screen and (max-width: 1199px)";

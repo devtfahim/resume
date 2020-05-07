@@ -1,0 +1,487 @@
+/************************** 
+*  Import style
+***************************/
+
+@import 'helpers/variabls.scss';
+$mainBg:#191a1c;
+$bgone-one:#1d1e20;
+$colorLight: #ffffff;
+$brdcolor: rgba(#fff, 0.1);
+$brdcolorTwo: #555555;
+$mainColorTwo :#9da1a5;
+
+/************************** 
+* General Style
+***************************/
+
+body {
+    background-color: $mainBg;
+}
+
+.fixblok {
+    background: $bgone-one !important;
+    /* Deleted after class */
+}
+
+.draw {
+    border: 1px solid $brdcolor !important;
+}
+
+.brd {
+    border-right: 1px solid $brdcolor;
+}
+
+.form-control {
+    border-color: $brdcolor;
+}
+
+.top-link {
+    border: 1px solid $brdcolor;
+}
+
+.br-lr {
+    border-left: 1px solid $brdcolor;
+    border-right: 1px solid $brdcolor;
+}
+
+.separator {
+    color: $mainColorTwo;
+}
+
+.read-more {
+    color: $mainColorTwo;
+}
+
+.maintitle {
+    color: $colorLight;
+}
+
+
+/************************** 
+* Full Header
+***************************/
+
+#header {
+    &:before {
+        background: $mainBg;
+    }
+    .head-info {
+        .header-content {
+            span {
+                color: $mainColorTwo;
+            }
+            .subtitle {
+                &::before {
+                    background: $brdcolor;
+                }
+            }
+            span.ville {
+                color: $colorLight;
+            }
+            .textfull {
+                color: transparent;
+                -webkit-text-stroke: 1px $colorLight;
+            }
+            .location {
+                .listlocaion {
+                    li {
+                        &:before {
+                            background: $brdcolor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* Navbar Top
+***************************/
+
+.navbar-wrapper {
+    .container {
+        .fullcontainer {
+            @media #{$maxSmall} {
+                background: transparent !important;
+            }
+        }
+    }
+    .navfixed {
+        &.scrolled {
+            background: $bgone-one;
+        }
+    }
+    .mainmenunav {
+        .cd-primary-nav {
+            background-image: url(../../../images/bg-paterns.png);
+            background-color: $mainBg;
+        }
+    }
+}
+
+.nav-styletwo {
+    &.scrolled {
+        background: $bgone-one;
+    }
+}
+
+.logo-dark {
+    display: none;
+}
+
+.dl-side-content {
+    .logo {
+        background-color: $mainBg;
+    }
+}
+
+
+/************************** 
+* Sidebar Menu
+***************************/
+
+.dl-fixed-sidebar {
+    background-color: $bgone-one !important;
+    .dl-menu-fixed {
+        ul {
+            li {
+                border-bottom: 1px solid $brdcolor !important;
+                a {
+                    color: $mainColorTwo;
+                }
+            }
+        }
+    }
+    .line {
+        background: $brdcolor !important;
+    }
+}
+
+
+/************************** 
+* About Us
+***************************/
+
+#about {
+    .about-blok {
+        .aboutinfo {
+            .about-img {
+                border: 1px solid $brdcolor;
+                &:after {
+                    /*  content: '';
+                    position: absolute;
+                    bottom: 17px;
+                    left: 30px;
+                    width: 60%;
+                    height: 5px;
+                    z-index: 2; */
+                }
+            }
+            .about-descr {
+                .title {
+                    color: $colorLight;
+                }
+                .fa {
+                    color: $mainColorTwo;
+                }
+            }
+        }
+    }
+    .skills-bar-container {
+        li {
+            .progressbar-title {
+                color: $colorLight;
+                h3 {
+                    color: $mainColorTwo;
+                }
+                .percent {
+                    color: $mainColorTwo;
+                }
+            }
+            .bar-container {
+                background: $brdcolorTwo;
+            }
+        }
+    }
+    .hvr-shutter-in-horizontal {
+        background: transparent;
+        color: $mainColorTwo;
+        &:before {
+            background: transparent !important;
+        }
+    }
+}
+
+
+/************************** 
+* services
+***************************/
+
+#services {
+    .cont-services {
+        background: none;
+        .servfix {
+            .services-block {
+                &:hover {
+                    background: transparent !important;
+                }
+            }
+        }
+    }
+    .services-item {
+        &:first-of-type {
+            .services-block {
+                background: #1a1a1a;
+            }
+        }
+        &:nth-of-type(2) {
+            .services-block {
+                background: #222222;
+                margin-top: 20px;
+            }
+        }
+        &:last-of-type {
+            .services-block {
+                background: #1a1a1a;
+            }
+        }
+    }
+}
+
+
+/************************** 
+* Counetr 
+***************************/
+
+.counter {
+    .fullcounter {
+        border: 25px solid $bgone-one;
+        background-color: $mainBg;
+        h3 {
+            span {
+                color: $mainColorTwo;
+            }
+        }
+    }
+}
+
+.icons-fonts {
+    color: $colorLight;
+}
+
+
+/************************** 
+* Portfolio
+***************************/
+
+#portfolio {
+    .portfolio-item {
+        background: $mainBg;
+        .portfolio-thumbnail {
+            .overlay {
+                background: rgba($bgone-one, 0.3);
+                .content-port {
+                    .fa {
+                        color: $colorLight;
+                        background: rgba($bgone-one, 0.5);
+                    }
+                }
+            }
+            .botom-thumbnail {
+                /*     background: transparent !important; */
+                p {
+                    color: $mainColorTwo;
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* resume
+***************************/
+
+#resume {
+    .resume-item {
+        &:first-child {
+            .resume-info {
+                background: #1a1a1a;
+                .res-line {}
+            }
+        }
+        &:nth-child(02) {
+            .resume-info {
+                background: #222222;
+                border-top: 3px solid $resumeBorderOne !important;
+                margin-top: 20px;
+                .res-line {
+                    background: $resumeBgOne;
+                }
+            }
+        }
+        &:last-child {
+            .resume-info {
+                border-top: 3px solid $resumeBorderTwo !important;
+                background: #1a1a1a;
+                .res-line {
+                    background: $resumeBgTwo;
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* Team
+***************************/
+
+.team {
+    .teamiteam {
+        .imgteam {
+            .socials-media {
+                ul {
+                    li {
+                        /*   background: $bgone-one; */
+                        background: #1a1a1a;
+                        .fa {
+                            color: $colorLight;
+                        }
+                    }
+                }
+            }
+        }
+        .btmteam {
+            .separator {
+                color: $mainColorTwo;
+            }
+        }
+    }
+    .teamiteam-iteam {
+        &:first-of-type {
+            .teamiteam {
+                background: #1a1a1a;
+            }
+        }
+        &:nth-of-type(2) {
+            .teamiteam {
+                background: #222222;
+                margin-top: 20px;
+            }
+        }
+        &:last-of-type {
+            .teamiteam {
+                background: #1a1a1a;
+            }
+        }
+    }
+}
+
+
+/************************** 
+* Journal
+***************************/
+
+#journal {
+    .journal-item {
+        &:first-of-type {
+            .journal-info {
+                background: #1a1a1a;
+                &::after {
+                    background-color: $resumeBgThre;
+                }
+            }
+        }
+        &:nth-of-type(02) {
+            .journal-info {
+                background: #222222;
+                margin-top: 20px;
+                &::after {
+                    background-color: $resumeBgOne;
+                }
+            }
+        }
+        &:last-of-type {
+            .journal-info {
+                background: #1a1a1a;
+                &::after {
+                    background-color: $resumeBgTwo;
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* Contact
+***************************/
+
+.infcontactfull {
+    border: 1px solid $brdcolor;
+    background-color: $mainBg;
+}
+
+#contact {
+    .contact-block {
+        span {
+            color: $mainColorTwo;
+        }
+    }
+    .contact-form {
+        .form-inline {
+            .form-group {
+                background-color: $mainBg;
+            }
+            .btn {
+                i {
+                    color: $colorLight;
+                }
+            }
+        }
+    }
+    .socials-media {
+        ul {
+            li {
+                /*  background: $bgone-one; */
+                background: #222222;
+                .fa {
+                    color: $colorLight;
+                }
+                &:hover {
+                    .fa {
+                        color: $colorLight;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*  */
+
+
+/************************** 
+* Header Follow 
+***************************/
+
+.header-follow {
+    p {
+        &:after {
+            background-color: $brdcolor;
+        }
+    }
+}
+
+
+/************************** 
+* Footer
+***************************/
+
+#footer {
+    background: $bgone-one;
+}

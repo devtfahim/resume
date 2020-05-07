@@ -1,0 +1,20 @@
+/************************** 
+*  Import style
+***************************/
+
+@import 'helpers/variabls.scss';
+.between {
+    padding: 0px 20px;
+}
+
+.between .line-between {
+    height: 50px;
+    width: 1px;
+    position: absolute;
+    display: block;
+    margin-top: 54px;
+    transform: translate(-50%, -0%);
+    left: 50%;
+    background: $mainColor;
+    opacity: 0.8;
+}

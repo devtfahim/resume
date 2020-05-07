@@ -1,0 +1,54 @@
+/************************** 
+*  Import style
+***************************/
+
+@import 'helpers/variabls.scss';
+
+/************************** 
+*  BOTTON SCROLL TO TOP
+***************************/
+
+.top-link {
+    position: fixed;
+    right: 42px;
+    bottom: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-align: $text-center;
+    line-height: 50px;
+    @extend .transition;
+    .fa {
+        font-size: 24px;
+        color: $colorLight;
+    }
+    &.show {
+        visibility: visible;
+        opacity: 1;
+        @media #{$maxMobile} {
+            display: none;
+        }
+        @media #{$minmax} {
+            display: none;
+        }
+        @media #{$minmaxLarg} {
+            display: none;
+        }
+    }
+    &.hide {
+        visibility: hidden;
+        opacity: 0;
+    }
+    .screen-reader-text {
+        position: absolute;
+        clip-path: inset(50%);
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        word-wrap: normal !important;
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+}

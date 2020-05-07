@@ -1,0 +1,451 @@
+/************************** 
+* . General Style
+***************************/
+
+$mainColor: #ff3d4f;
+$brdcolor: rgba(#fff, 0.1);
+a:hover,
+a:focus,
+.fa:hover,
+.navbar-header .navbar-brand span,
+.navbar-inverse .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:focus,
+#portfolio .portfolio-list .nav li:hover {
+    color: $mainColor;
+}
+
+.form-control:focus,
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: $mainColor;
+}
+
+.btn:hover,
+.btn:focus {
+    background: $mainColor;
+}
+
+.section-title {
+    h2 {
+        &:before,
+        &:after {
+            content: "";
+            background: $mainColor;
+        }
+    }
+}
+
+.draw {
+    &:hover {
+        &:before {
+            border-top-color: $mainColor;
+            border-right-color: $mainColor;
+        }
+        &:after {
+            border-bottom-color: $mainColor;
+            border-left-color: $mainColor;
+        }
+    }
+}
+
+.cd-overlay-content {
+    span {
+        background-color: $mainColor;
+    }
+}
+
+
+/************************** 
+* Navbar
+***************************/
+
+.nav-styletwo {
+    .navbar {
+        .menu-toggle {
+            .bar {
+                background-color: $mainColor;
+            }
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        &.active {
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-styletwo {
+        .navbar {
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            &.active {
+                                color: $mainColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dl-burger-menu {
+    background: $mainColor;
+}
+
+.dl-fixed-sidebar {
+    .dl-menu-fixed {
+        ul {
+            li {
+                &:hover {
+                    a {
+                        color: $mainColor !important;
+                    }
+                }
+                a {
+                    &.active {
+                        color: $mainColor !important;
+                    }
+                }
+                .active {
+                    &:after {
+                        background: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+    .line {
+        &:after {
+            background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), color-stop(75%, $mainColor), to($mainColor));
+            background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, $mainColor 75%, $mainColor);
+        }
+    }
+}
+
+
+/************************** 
+* Sidebar fix 
+***************************/
+
+.sidebar-contet {
+    .contentsidebar {
+        .themecolor {
+            .list-sidebar {
+                li {
+                    span {
+                        &.active {
+                            border: 1px solid $mainColor !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* About Us
+***************************/
+
+#about {
+    .about-blok {
+        .aboutinfo {
+            .about-img {
+                &:after {
+                    background-color: $mainColor !important;
+                }
+            }
+        }
+    }
+    .skills-bar-container {
+        li {
+            .bar-container {
+                .progressbar {
+                    background-color: $mainColor;
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* . Services
+***************************/
+
+#services {
+    .cont-services {
+        .servfix {
+            &:hover {
+                .read-more {
+                    color: $mainColor !important;
+                    i {
+                        color: $mainColor !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* Team
+***************************/
+
+.team {
+    .teamiteam {
+        .imgteam {
+            .socials-media {
+                ul {
+                    li {
+                        &:hover {
+                            background: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* Contact
+***************************/
+
+#contact {
+    height: auto;
+    width: 100%;
+    .contact-block1 {
+        .contact-block {
+            .fa {
+                color: $mainColor;
+            }
+        }
+    }
+    .socials-media {
+        ul {
+            li {
+                &:hover {
+                    background: $mainColor;
+                }
+            }
+        }
+    }
+}
+
+::-webkit-scrollbar-thumb {
+    background: $mainColor;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $mainColor;
+}
+
+::-webkit-selection {
+    background: $mainColor;
+}
+
+::-moz-selection {
+    background: $mainColor;
+}
+
+::selection {
+    background: $mainColor;
+}
+
+.counter {
+    .fullcounter {
+        h3 {
+            sup {
+                color: $mainColor;
+            }
+        }
+    }
+}
+
+.error {
+    color: $mainColor;
+}
+
+.overlay-2 {
+    background: $mainColor;
+}
+
+.mainicon {
+    &.sidebaricon {
+        background: $mainColor;
+        border: 1px solid $mainColor;
+    }
+    &.btn-purchase {
+        border: 1px solid $brdcolor;
+    }
+}
+
+
+/************************** 
+* Option themes
+***************************/
+
+.sidebar-contet {
+    .contentsidebar {
+        .themecolor {
+            .list-sidebar {
+                li {
+                    a {
+                        &.active {
+                            border: 1px solid $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/************************** 
+* Footer
+***************************/
+
+#footer {
+    .line {
+        &:before {
+            background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), color-stop(75%, $mainColor), to($mainColor));
+            background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, $mainColor 75%, $mainColor);
+        }
+    }
+}
+
+
+/************************** 
+* Color Error
+***************************/
+
+.error {
+    color: $mainColor !important;
+}
+
+
+/************************** 
+* Blog Details
+***************************/
+
+.page-title {
+    .overlay {
+        .content {
+            ul {
+                li {
+                    a {
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Blog Details */
+
+.blog-details {
+    .blog-single {
+        .post {
+            .post-content {
+                .post-date {
+                    color: $mainColor;
+                }
+                .post-title {
+                    a {
+                        h4 {
+                            &:hover {
+                                color: $mainColor;
+                            }
+                        }
+                    }
+                }
+            }
+            .post-comments {
+                .post-comment {
+                    .reply-btn {
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* Blog Sidebar */
+
+.blog-sidebar {
+    .sidebar-search {
+        .form-group {
+            .search-btn {
+                color: $mainColor;
+            }
+        }
+    }
+    .sidebar-categories {
+        .categories-list {
+            li {
+                a {
+                    span {
+                        color: $mainColor;
+                    }
+                    &:hover {
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+    .sidebar-posts {
+        .post-inner {
+            .post-info {
+                h5 {
+                    a {
+                        &:hover {
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sidebar-archives {
+        .archives-list {
+            li {
+                a {
+                    &:hover {
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+    .sidebar-tags {
+        .tags-list {
+            li {
+                a {
+                    &:hover {
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+}
