@@ -3,7 +3,7 @@
 burger button
 
 ------------------------------ */
-.art-menu-bar-btn {
+.ft-menu-bar-btn {
   margin-top: -10px;
   display: inline-block;
   width: 15px;
@@ -41,7 +41,7 @@ burger button
     }
   }
 
-  &.art-active {
+  &.ft-active {
     & span {
       transform: rotate(45deg);
       &:before {

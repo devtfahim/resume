@@ -4,7 +4,7 @@ app marcup
 
 ------------------------------ */
 /* ----- top background ----- */
-.art-top-bg {
+.ft-top-bg {
   overflow: hidden;
   position: absolute;
   width: 100%;
@@ -13,7 +13,7 @@ app marcup
   height: 400px;
   background-size: cover;
 
-  & .art-top-bg-overlay {
+  & .ft-top-bg-overlay {
     position: relative;
     height: 100%;
     width: 100%;
@@ -21,7 +21,7 @@ app marcup
   }
 }
 /* ----- preloader ----- */
-.art-preloader {
+.ft-preloader {
   margin: 15px;
   position: absolute;
   top: 0;
@@ -34,11 +34,11 @@ app marcup
   align-items: center;
   justify-content: center;
 
-  & .art-preloader-content {
+  & .ft-preloader-content {
     margin-bottom: 15px;
     text-align: center;
 
-    & .art-preloader-load {
+    & .ft-preloader-load {
       margin-top: 5px;
       width: 200px;
 
@@ -53,7 +53,7 @@ app marcup
     }
   }
 }
-.art-preloader-load {
+.ft-preloader-load {
   & path {
     &:first-child {
       stroke: $deep-color;
@@ -64,7 +64,7 @@ app marcup
   }
 }
 /* ----- scroll frame ----- */
-.art-scroll-frame {
+.ft-scroll-frame {
   width: 100%;
   height: calc(100vh - 30px);
 }
@@ -75,7 +75,7 @@ app marcup
   pointer-events: none;
 }
 /* ----- app ----- */
-.art-app {
+.ft-resume {
   padding: 15px;
   background: $deep-color;
   width: 100vw;
@@ -91,7 +91,7 @@ app marcup
     display: none;
   }
   /* ----- mobile top bar ----- */
-  & .art-mobile-top-bar {
+  & .ft-mobile-top-bar {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -104,7 +104,7 @@ app marcup
     align-items: center;
   }
 
-  & .art-app-wrapper {
+  & .ft-resume-wrapper {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -116,12 +116,12 @@ app marcup
     overflow: hidden;
     box-shadow: $shadow-1;
 
-    & .art-app-container {
+    & .ft-resume-container {
       position: relative;
       display: flex;
       flex-wrap: nowrap;
       /* ----- info bar ----- */
-      & .art-info-bar {
+      & .ft-info-bar {
         background: $info-bar-1-color;
         width: 290px;
         min-width: 290px;
@@ -131,10 +131,10 @@ app marcup
         box-shadow: $shadow-1;
         transition: $tr-lg;
 
-        & .art-info-bar-frame {
+        & .ft-info-bar-frame {
           padding: 0 15px;
 
-          & .art-info-bar-header {
+          & .ft-info-bar-header {
             width: 100%;
             height: 70px;
             justify-content: flex-start;
@@ -145,20 +145,20 @@ app marcup
             z-index: 999999999999;
             display: none;
 
-            & .art-info-bar-btn {
+            & .ft-info-bar-btn {
               margin-left: auto;
               pointer-events: all;
               font-size: 14px;
               padding: 30px;
 
-              &.art-disabled {
+              &.ft-disabled {
                 opacity: 0;
                 pointer-events: none;
               }
             }
           }
 
-          & .art-scroll-frame {
+          & .ft-scroll-frame {
             & .scroll-content {
               padding: 240px 0 50px;
             }
@@ -166,7 +166,7 @@ app marcup
         }
       }
       /* ----- content ----- */
-      & .art-content {
+      & .ft-content {
         position: relative;
         overflow: hidden;
         width: 100vw;
@@ -174,7 +174,7 @@ app marcup
         padding-right: 80px;
         transition: $tr-lg;
 
-        & .art-curtain {
+        & .ft-curtain {
           background: $content-color-s-light;
           position: absolute;
           z-index: 9;
@@ -186,17 +186,17 @@ app marcup
           transition: $tr-lg;
         }
 
-        &.art-active {
+        &.ft-active {
           transform: translateX(-150px);
 
-          & .art-curtain {
+          & .ft-curtain {
             pointer-events: all;
             opacity: 0.7;
           }
         }
       }
       /* ----- menu bar ----- */
-      & .art-menu-bar {
+      & .ft-menu-bar {
         background: $info-bar-1-color;
         width: 230px;
         height: calc(100vh - 30px);
@@ -208,10 +208,10 @@ app marcup
         box-shadow: $shadow-1;
         transition: $tr-lg;
 
-        & .art-menu-bar-frame {
+        & .ft-menu-bar-frame {
           position: relative;
 
-          & .art-menu-bar-header {
+          & .ft-menu-bar-header {
             width: 100%;
             height: 70px;
             display: flex;
@@ -224,10 +224,10 @@ app marcup
             box-shadow: $shadow-2;
             background: $info-bar-2-color-light;
 
-            & .art-menu-bar-btn {
+            & .ft-menu-bar-btn {
               pointer-events: all;
 
-              &.art-disabled {
+              &.ft-disabled {
                 opacity: 0;
                 pointer-events: none;
               }
@@ -235,7 +235,7 @@ app marcup
           }
         }
 
-        &.art-active {
+        &.ft-active {
           transform: translateX(-150px);
         }
       }
@@ -254,98 +254,98 @@ app marcup (after 920px)
     padding-right: 15px;
   }
   /* ----- preloader ----- */
-  .art-preloader {
+  .ft-preloader {
     margin: 0;
     width: 100vw;
     height: 100vh;
   }
   /* ----- scroll frame ----- */
-  .art-scroll-frame {
+  .ft-scroll-frame {
     height: 100vh;
   }
 
-  .art-app {
+  .ft-resume {
     padding: 0;
     /* ----- mobile top bar ----- */
-    & .art-mobile-top-bar {
+    & .ft-mobile-top-bar {
       display: flex;
     }
 
-    & .art-app-wrapper {
+    & .ft-resume-wrapper {
       border-radius: 0;
       height: 100vh;
 
-      & .art-app-container {
+      & .ft-resume-container {
         width: 100%;
         /* ----- info bar ----- */
-        & .art-info-bar {
+        & .ft-info-bar {
           position: absolute;
           left: -290px;
           width: 290px;
           height: 100vh;
 
-          &.art-active {
+          &.ft-active {
             transform: translateX(290px);
           }
 
-          & .art-info-bar-frame {
-            & .art-info-bar-header {
+          & .ft-info-bar-frame {
+            & .ft-info-bar-header {
               display: flex;
 
-              & .art-info-bar-btn {
+              & .ft-info-bar-btn {
                 transform: translateX(70px);
                 transition: $tr-md;
               }
             }
           }
 
-          &.art-active {
-            & .art-info-bar-frame {
-              & .art-info-bar-btn {
+          &.ft-active {
+            & .ft-info-bar-frame {
+              & .ft-info-bar-btn {
                 transform: translateX(0);
               }
             }
           }
         }
         /* ----- content ----- */
-        & .art-content {
+        & .ft-content {
           position: relative;
           width: 100vw;
           height: 100vh;
           padding-right: 0;
           padding-top: 70px;
 
-          .art-scroll-frame {
+          .ft-scroll-frame {
             height: calc(100vh - 70px);
           }
 
-          &.art-active {
+          &.ft-active {
             transform: none;
 
-            & .art-curtain {
+            & .ft-curtain {
               pointer-events: all;
               opacity: 1;
             }
           }
         }
         /* ----- menu bar ----- */
-        & .art-menu-bar {
+        & .ft-menu-bar {
           position: absolute;
           right: -230px;
           width: 230px;
           height: 100vh;
 
-          &.art-active {
+          &.ft-active {
             transform: translateX(-230px);
           }
 
-          & .art-menu-bar-btn {
+          & .ft-menu-bar-btn {
             transform: translateX(-80px);
             transition: $tr-md;
           }
 
-          &.art-active {
-            & .art-menu-bar-btn {
+          &.ft-active {
+            & .ft-menu-bar-btn {
               transform: translateX(0);
             }
           }
@@ -360,9 +360,9 @@ app marcup (after 290px)
 
 ------------------------------ */
 @media (max-width: 290px) {
-  .art-app {
+  .ft-resume {
     /* ----- info bar ----- */
-    & .art-info-bar {
+    & .ft-info-bar {
       width: 100vw;
     }
   }
@@ -373,18 +373,18 @@ app marcup (after 230px)
 
 ------------------------------ */
 @media (max-width: 230px) {
-  .art-app {
+  .ft-resume {
     /* ----- menu bar ----- */
-    & .art-menu-bar {
+    & .ft-menu-bar {
       width: 100vw;
     }
   }
 }
 
-.art-app-onepage {
-  & .art-app-wrapper {
-    & .art-app-container {
-      & .art-content {
+.ft-resume-onepage {
+  & .ft-resume-wrapper {
+    & .ft-resume-container {
+      & .ft-content {
         padding-right: 0;
       }
     }
