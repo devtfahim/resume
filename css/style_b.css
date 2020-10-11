@@ -1001,11 +1001,10 @@ info bar
 }
 
 .art-info-bar .art-header .art-avatar {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin: 0 auto;
-    border-radius: 25%;
-    border: solid 2px #FFC107;
+    border-radius: 50%;
     position: relative;
     margin-bottom: 15px;
 }
@@ -1051,10 +1050,8 @@ info bar
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    border-radius: 22%;
+    border-radius: 50%;
     z-index: 0;
-    margin-top: 3px;
-    padding: 3px;
 }
 
 .art-info-bar .art-header .art-avatar .art-avatar-curtain:hover {
