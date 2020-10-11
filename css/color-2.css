@@ -1,4 +1,6 @@
-
+.art-info-bar .art-header .art-avatar {
+  border: solid 2px #f44336;
+}
 .art-link.art-color-link {
   color: #f44336
 }
