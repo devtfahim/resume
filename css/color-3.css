@@ -1,123 +1,129 @@
-.ft-sm-text{
-  color:  #2F9E61;
+.ft-sm-text {
+  color: #2F9E61;
 }
+
 .ft-info-bar .ft-header .ft-avatar {
   border: solid 2px #2F9E61;
 }
+
 .ft-link.ft-color-link {
-    color: #2F9E61
-  }
-  
-  .ft-link.ft-color-link:hover {
-    color: #2F9E61;
-  }
-  .ft-btn {
-    background: #2F9E61;
-  }
-  
-  blockquote {
-    background: #2F9E61;
-  }
-  
-  .ft-custom-list li:before {
-    border: solid 2px #2F9E61;
-  }
-  
-  .ft-info-bar .ft-header .ft-avatar .ft-lamp-light .ft-available-lamp {
-    background: #2F9E61;
-  }
-  
-  .ft-info-bar .ft-name:hover a {
-    color: #2F9E61
-  }
-  
-  .ft-info-bar .ft-knowledge-list li:before {
-    color: #2F9E61;
-  }
-  
-  .ft-menu-bar .ft-language-change li.ft-active-lang:hover{
-    background-color: #2F9E61;
-  }
-  
-  .ft-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
-    color: #2F9E61;
-    text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
-  }
-  .ft-code i {
-    color: #2F9E61
-  }
-  
-  .ft-counter-frame .ft-counter-box .ft-counter {
-    color: #2F9E61;
-  }
-  
-  .ft-counter-frame .ft-counter-box .ft-counter-plus {
-    color: #2F9E61;
-  }
-  
-  .ft-price.ft-popular-price:before {
-    background: #2F9E61
-  }
-  
-  .ft-price .ft-price-body .ft-price-cost .ft-number {
-    color: #2F9E61;
-  }
-  
-  .ft-price .ft-price-body .ft-price-list li:before {
-    color: #2F9E61
-  }
-  
-  .ft-price .ft-price-body .ft-price-list li.ft-empty-item:before {
-    color: #2F9E61
-  }
-  
-  .ft-testimonial .ft-testimonial-footer .ft-star-rate {
-    color: #2F9E61
-  }
-  
-  .ft-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #2F9E61;
-  }
-  
-  .fancybox-progress {
-    background: #2F9E61;
-  }
-  
-  .fancybox-thumbs__list a:before {
-    border-color: #2F9E61;
-  }
-  
-  .ft-timeline .ft-timeline-item .ft-timeline-mark {
-    border: solid 3px #2F9E61;
-  }
-  
-  .ft-form-field textarea.ft-active {
-    border-color: #2F9E61;
-  }
-  
-  .ft-form-field textarea:focus {
-    border-color: #2F9E61;
-  }
-  
-  .ft-contact-form .ft-input.ft-active+label, .ft-contact-form .ft-input:focus+label {
-    background: #2F9E61;
-  }
-  
-  .ft-pagination .ft-pagination-center a.ft-active-pag {
-    color: #2F9E61;
-  }
-  
-  .ft-preloader-load path:last-child {
-    stroke: #2F9E61;
-  }
-  
-  .ft-line-progress path:last-child {
-    stroke: #2F9E61;
-  }
-  
-  .ft-cirkle-progress path:last-child {
-    stroke: #2F9E61;
-  }
-  .open-changer i {
-    color: #2F9E61;
+  color: #2F9E61
+}
+
+.ft-link.ft-color-link:hover {
+  color: #2F9E61;
+}
+
+.ft-btn {
+  background: #2F9E61;
+}
+
+blockquote {
+  background: #2F9E61;
+}
+
+.ft-custom-list li:before {
+  border: solid 2px #2F9E61;
+}
+
+.ft-info-bar .ft-header .ft-avatar .ft-lamp-light .ft-available-lamp {
+  background: #2F9E61;
+}
+
+.ft-info-bar .ft-name:hover a {
+  color: #2F9E61
+}
+
+.ft-info-bar .ft-knowledge-list li:before {
+  color: #2F9E61;
+}
+
+.ft-menu-bar .ft-language-change li.ft-active-lang:hover {
+  background-color: #2F9E61;
+}
+
+.ft-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
+  color: #2F9E61;
+  text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
+}
+
+.ft-code i {
+  color: #2F9E61
+}
+
+.ft-counter-frame .ft-counter-box .ft-counter {
+  color: #2F9E61;
+}
+
+.ft-counter-frame .ft-counter-box .ft-counter-plus {
+  color: #2F9E61;
+}
+
+.ft-price.ft-popular-price:before {
+  background: #2F9E61
+}
+
+.ft-price .ft-price-body .ft-price-cost .ft-number {
+  color: #2F9E61;
+}
+
+.ft-price .ft-price-body .ft-price-list li:before {
+  color: #2F9E61
+}
+
+.ft-price .ft-price-body .ft-price-list li.ft-empty-item:before {
+  color: #2F9E61
+}
+
+.ft-testimonial .ft-testimonial-footer .ft-star-rate {
+  color: #2F9E61
+}
+
+.ft-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #2F9E61;
+}
+
+.fancybox-progress {
+  background: #2F9E61;
+}
+
+.fancybox-thumbs__list a:before {
+  border-color: #2F9E61;
+}
+
+.ft-timeline .ft-timeline-item .ft-timeline-mark {
+  border: solid 3px #2F9E61;
+}
+
+.ft-form-field textarea.ft-active {
+  border-color: #2F9E61;
+}
+
+.ft-form-field textarea:focus {
+  border-color: #2F9E61;
+}
+
+.ft-contact-form .ft-input.ft-active+label,
+.ft-contact-form .ft-input:focus+label {
+  background: #2F9E61;
+}
+
+.ft-pagination .ft-pagination-center a.ft-active-pag {
+  color: #2F9E61;
+}
+
+.ft-preloader-load path:last-child {
+  stroke: #2F9E61;
+}
+
+.ft-line-progress path:last-child {
+  stroke: #2F9E61;
+}
+
+.ft-cirkle-progress path:last-child {
+  stroke: #2F9E61;
+}
+
+.open-changer i {
+  color: #2F9E61;
 }

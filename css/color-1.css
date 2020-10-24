@@ -1,6 +1,7 @@
-.ft-sm-text{
-color: #FFC107;
+.ft-sm-text {
+    color: #FFC107;
 }
+
 .ft-info-bar .ft-header .ft-avatar {
     border: solid 2px #FFC107;
 }
@@ -122,6 +123,7 @@ blockquote {
 .ft-cirkle-progress path:last-child {
     stroke: #FFC107;
 }
+
 .open-changer i {
     color: #FFC107;
 }

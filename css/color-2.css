@@ -1,9 +1,11 @@
-.ft-sm-text{
-  color:  #f44336;
+.ft-sm-text {
+  color: #f44336;
 }
+
 .ft-info-bar .ft-header .ft-avatar {
   border: solid 2px #f44336;
 }
+
 .ft-link.ft-color-link {
   color: #f44336
 }
@@ -11,6 +13,7 @@
 .ft-link.ft-color-link:hover {
   color: #f44336;
 }
+
 .ft-btn {
   background: #f44336;
 }
@@ -100,7 +103,8 @@ blockquote {
   border-color: #f44336
 }
 
-.ft-contact-form .ft-input.ft-active+label, .ft-contact-form .ft-input:focus+label {
+.ft-contact-form .ft-input.ft-active+label,
+.ft-contact-form .ft-input:focus+label {
   background: #f44336;
 }
 
@@ -119,6 +123,7 @@ blockquote {
 .ft-cirkle-progress path:last-child {
   stroke: #f44336;
 }
+
 .open-changer i {
   color: #f44336;
 }
