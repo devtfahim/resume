@@ -1,6 +1,6 @@
 /* -------------------------------------------
 
-Name: 		Arter
+Name: 		Fahim
 Version:  1.0
 Author:		Md. Fahim (millerDigitalDesign)
 Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
