@@ -82,7 +82,7 @@ Portfolio:  https://www.facebook.com/fahim.cse21
 /*
 $main-color: #FFC107
 $main-color: #f44336;
-$main-color: #4CAF50;
+$main-color: #2F9E61;
 $main-color: #64B5F6;
 */
 
@@ -256,7 +256,7 @@ blockquote {
 
 blockquote:before {
     position: absolute;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     content: "\f10d";
     font-size: 18px;
@@ -268,7 +268,7 @@ blockquote:before {
 
 blockquote:after {
     position: absolute;
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     content: "\f10d";
     font-size: 18px;
@@ -360,7 +360,7 @@ link
 
 .ft-link.ft-w-chevron:after {
     position: absolute;
-    font-family: "Font Awesome 5 free";
+    font-family: "FontAwesome";
     content: '\f054';
     font-weight: 900;
     display: inline-block;
@@ -1290,7 +1290,7 @@ info bar
 }
 
 .ft-info-bar .ft-knowledge-list li:before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     content: "\f00c";
     margin-right: 5px;
@@ -1478,7 +1478,7 @@ menu bar
 
 .ft-menu-bar nav .main-menu .menu-item.menu-item-has-children:after {
     position: absolute;
-    font-family: "Font Awesome 5 free";
+    font-family: "FontAwesome";
     content: '\f054';
     font-weight: 900;
     display: inline-block;
@@ -1946,7 +1946,7 @@ content
 }
 
 .ft-price .ft-price-body .ft-price-list li:before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     content: "\f00c";
     margin-right: 5px;
@@ -1959,7 +1959,7 @@ content
 }
 
 .ft-price .ft-price-body .ft-price-list li.ft-empty-item:before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "FontAwesome";
     font-weight: 900;
     content: "\f00d";
     margin-right: 5px;

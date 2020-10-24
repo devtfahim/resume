@@ -1,3 +1,6 @@
+.ft-sm-text{
+color: #FFC107;
+}
 .ft-info-bar .ft-header .ft-avatar {
     border: solid 2px #FFC107;
 }
@@ -34,8 +37,13 @@ blockquote {
     color: #FFC107;
 }
 
-.ft-menu-bar .ft-language-change li.ft-active-lang {
+.ft-menu-bar .ft-language-change li.ft-active-lang:hover {
     background-color: #FFC107;
+}
+
+.ft-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
+    color: #FFC107;
+    text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
 
 .ft-code i {
@@ -113,4 +121,7 @@ blockquote {
 
 .ft-cirkle-progress path:last-child {
     stroke: #FFC107;
+}
+.open-changer i {
+    color: #FFC107;
 }

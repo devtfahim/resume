@@ -3,6 +3,11 @@
 
 <head>
     <!-- Required meta tags -->
+    <script type="text/javascript">
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,9 +72,10 @@
                   <i class="fa fa-expand"></i>
                 </a>
                                 <!-- available -->
-                                <!-- <div class="ft-lamp-light">
+                                <div class="ft-lamp-light">
+                                    <!-- add class 'ft-not-available' if not available-->
                                     <div class="ft-available-lamp"></div>
-                                </div> -->
+                                </div>
                             </div>
                             <!-- avatar end -->
                             <!-- name -->
@@ -83,20 +89,20 @@
                         <div id="scrollbar2" class="ft-scroll-frame">
 
                             <!-- info bar about -->
-                            <div class="ft-table p-15-15 text">
+                            <div class="ft-table p-15-15">
                                 <!-- about text -->
                                 <ul>
                                     <!-- country -->
                                     <li>
-                                        <h6><i class="fa fa-globe" aria-hidden="true"></i></h6><span>Bangladesh</span>
+                                        <h6>Homeland :</h6><span>Bangladesh</span>
                                     </li>
                                     <!-- city -->
                                     <li>
-                                        <h6><i class="fa fa-phone" aria-hidden="true"></i></h6><span>+8801892408107</span>
+                                        <h6>Contact No :</h6><span>+8801892408107</span>
                                     </li>
                                     <!-- age -->
                                     <li>
-                                        <h6><i class="fa fa-envelope" aria-hidden="true"></i></h6><span>webdev.fahim@gmail.com</span>
+                                        <h6>Email:</h6><span>webdev.fahim@gmail.com</span>
                                     </li>
                                 </ul>
                             </div>
@@ -193,7 +199,7 @@
                             <!-- knowledge list -->
                             <ul class="ft-knowledge-list p-15-0">
                                 <!-- list item -->
-                                <li> Frontend: HTML, CSS, SASS, jQuery</li>
+                                <li>Frontend: HTML, CSS, SASS, jQuery</li>
                                 <!-- list item -->
                                 <li>Framework: Material Design, Bootstrap 4</li>
                                 <!-- list item -->
@@ -238,15 +244,34 @@
  
                              </div>
                              <!-- language skills end -->
-                            
+
+                            <!-- divider -->
+                            <div class="ft-ls-divider"></div>
+
+                            <!-- links frame -->
+                            <div class="ft-links-frame p-15-15">
+
+                                <!-- download cv button -->
+                                <a href="files/cv.txt" class="ft-link" download>Download Resume <i class="fa fa-download"></i></a>
+
+                            </div>
+                            <!-- links frame end -->
+
                         </div>
                         <!-- scroll frame end -->
 
                         <!-- sidebar social -->
-                        <div class="ft-ls-social text-center">
-                            <!-- download cv button -->
-                            <a href="files/cv.txt" class="ft-link" download>Download Resume <i class="fa fa-download"></i></a>
-                            
+                        <div class="ft-ls-social">
+                            <!-- social link -->
+                            <a href="https://www.linkedin.com/in/webdevfahim/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                            <!-- social link -->
+                            <!-- <a href="#." target="_blank"><i class="fa fa-dribbble"></i></a> -->
+                            <!-- social link -->
+                            <!-- <a href="#." target="_blank"><i class="fa fa-behance"></i></a> -->
+                            <!-- social link -->
+                            <a href="https://github.com/devtfahim" target="_blank"><i class="fa fa-github"></i></a>
+                            <!-- social link -->
+                            <a href="https://www.facebook.com/fahim.cse21" target="_blank"><i class="fa fa-facebook"></i></a>
                         </div>
                         <!-- sidebar social end -->
 
@@ -1066,13 +1091,11 @@
                             <!-- menu end -->
 
                             <!-- language change -->
-                            <ul class="ft-language-change ">
+                            <ul class="ft-language-change">
                                 <!-- language item -->
-                                <li class="ft-active-lang"><a href="https://www.linkedin.com/in/webdevfahim/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                                <li><a href="#.">FR</a></li>
                                 <!-- language item -->
-                                <li class="ft-active-lang"><a href="https://github.com/devtfahim" target="_blank"><i class="fa fa-github"></i></a></li>
-                                <!-- language item -->
-                                <li class="ft-active-lang"><a href="https://www.facebook.com/fahim.cse21" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li class="ft-active-lang"><a href="#.">EN</a></li>
                             </ul>
                             <!-- language change end -->
 
@@ -1090,6 +1113,7 @@
 
         </div>
         <!-- resume wrapper end -->
+
         <!-- preloader -->
         <div class="ft-preloader">
             <!-- preloader content -->
@@ -1102,7 +1126,7 @@
             <!-- preloader content end -->
         </div>
         <!-- preloader end -->
-        
+
     </div>
     <!-- resume end -->
 
