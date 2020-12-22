@@ -95,6 +95,10 @@ blockquote {
   border: solid 3px #2F9E61;
 }
 
+.ft-timeline-left .ft-timeline-left-item .ft-timeline-left-mark {
+  border: solid 3px #2F9E61;
+}
+
 .ft-form-field textarea.ft-active {
   border-color: #2F9E61;
 }
