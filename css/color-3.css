@@ -1,133 +1,133 @@
 .ft-sm-text {
-  color: #2F9E61;
+  color:#00D09C;
 }
 
 .ft-info-bar .ft-header .ft-avatar {
-  border: solid 2px #2F9E61;
+  border: solid 2px#00D09C;
 }
 
 .ft-link.ft-color-link {
-  color: #2F9E61
+  color:#00D09C
 }
 
 .ft-link.ft-color-link:hover {
-  color: #2F9E61;
+  color:#00D09C;
 }
 
 .ft-btn {
-  background: #2F9E61;
+  background:#00D09C;
 }
 
 blockquote {
-  background: #2F9E61;
+  background:#00D09C;
 }
 
 .ft-custom-list li:before {
-  border: solid 2px #2F9E61;
+  border: solid 2px#00D09C;
 }
 
 .ft-info-bar .ft-header .ft-avatar .ft-lamp-light .ft-available-lamp {
-  background: #2F9E61;
+  background:#00D09C;
 }
 
 .ft-info-bar .ft-name:hover a {
-  color: #2F9E61
+  color:#00D09C
 }
 
 .ft-info-bar .ft-knowledge-list li:before {
-  color: #2F9E61;
+  color:#00D09C;
 }
 
 .ft-menu-bar .ft-language-change li.ft-active-lang:hover {
-  background-color: #2F9E61;
+  background-color:#00D09C;
 }
 
 .ft-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
-  color: #2F9E61;
+  color:#00D09C;
   text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
 
 .ft-code i {
-  color: #2F9E61
+  color:#00D09C
 }
 
 .ft-counter-frame .ft-counter-box .ft-counter {
-  color: #2F9E61;
+  color:#00D09C;
 }
 
 .ft-counter-frame .ft-counter-box .ft-counter-plus {
-  color: #2F9E61;
+  color:#00D09C;
 }
 
 .ft-price.ft-popular-price:before {
-  background: #2F9E61
+  background:#00D09C
 }
 
 .ft-price .ft-price-body .ft-price-cost .ft-number {
-  color: #2F9E61;
+  color:#00D09C;
 }
 
 .ft-price .ft-price-body .ft-price-list li:before {
-  color: #2F9E61
+  color:#00D09C
 }
 
 .ft-price .ft-price-body .ft-price-list li.ft-empty-item:before {
-  color: #2F9E61
+  color:#00D09C
 }
 
 .ft-testimonial .ft-testimonial-footer .ft-star-rate {
-  color: #2F9E61
+  color:#00D09C
 }
 
 .ft-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #2F9E61;
+  background-color:#00D09C;
 }
 
 .fancybox-progress {
-  background: #2F9E61;
+  background:#00D09C;
 }
 
 .fancybox-thumbs__list a:before {
-  border-color: #2F9E61;
+  border-color:#00D09C;
 }
 
 .ft-timeline .ft-timeline-item .ft-timeline-mark {
-  border: solid 3px #2F9E61;
+  border: solid 3px#00D09C;
 }
 
 .ft-timeline-left .ft-timeline-left-item .ft-timeline-left-mark {
-  border: solid 3px #2F9E61;
+  border: solid 3px#00D09C;
 }
 
 .ft-form-field textarea.ft-active {
-  border-color: #2F9E61;
+  border-color:#00D09C;
 }
 
 .ft-form-field textarea:focus {
-  border-color: #2F9E61;
+  border-color:#00D09C;
 }
 
 .ft-contact-form .ft-input.ft-active+label,
 .ft-contact-form .ft-input:focus+label {
-  background: #2F9E61;
+  background:#00D09C;
 }
 
 .ft-pagination .ft-pagination-center a.ft-active-pag {
-  color: #2F9E61;
+  color:#00D09C;
 }
 
 .ft-preloader-load path:last-child {
-  stroke: #2F9E61;
+  stroke:#00D09C;
 }
 
 .ft-line-progress path:last-child {
-  stroke: #2F9E61;
+  stroke:#00D09C;
 }
 
 .ft-cirkle-progress path:last-child {
-  stroke: #2F9E61;
+  stroke:#00D09C;
 }
 
 .open-changer i {
-  color: #2F9E61;
+  color:#00D09C;
 }

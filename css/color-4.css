@@ -1,133 +1,133 @@
 .ft-sm-text {
-  color: #64B5F6;
+  color: #00B8D7;
 }
 
 .ft-info-bar .ft-header .ft-avatar {
-  border: solid 2px #64B5F6;
+  border: solid 2px #00B8D7;
 }
 
 .ft-link.ft-color-link {
-  color: #64B5F6
+  color: #00B8D7
 }
 
 .ft-link.ft-color-link:hover {
-  color: #64B5F6;
+  color: #00B8D7;
 }
 
 .ft-btn {
-  background: #64B5F6;
+  background: #00B8D7;
 }
 
 blockquote {
-  background: #64B5F6;
+  background: #00B8D7;
 }
 
 .ft-custom-list li:before {
-  border: solid 2px #64B5F6;
+  border: solid 2px #00B8D7;
 }
 
 .ft-info-bar .ft-header .ft-avatar .ft-lamp-light .ft-available-lamp {
-  background: #64B5F6;
+  background: #00B8D7;
 }
 
 .ft-info-bar .ft-name:hover a {
-  color: #64B5F6
+  color: #00B8D7
 }
 
 .ft-info-bar .ft-knowledge-list li:before {
-  color: #64B5F6;
+  color: #00B8D7;
 }
 
 .ft-menu-bar .ft-language-change li.ft-active-lang:hover {
-  background-color: #64B5F6;
+  background-color: #00B8D7;
 }
 
 .ft-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
-  color: #64B5F6;
+  color: #00B8D7;
   text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
 
 .ft-code i {
-  color: #64B5F6
+  color: #00B8D7
 }
 
 .ft-counter-frame .ft-counter-box .ft-counter {
-  color: #64B5F6;
+  color: #00B8D7;
 }
 
 .ft-counter-frame .ft-counter-box .ft-counter-plus {
-  color: #64B5F6;
+  color: #00B8D7;
 }
 
 .ft-price.ft-popular-price:before {
-  background: #64B5F6
+  background: #00B8D7
 }
 
 .ft-price .ft-price-body .ft-price-cost .ft-number {
-  color: #64B5F6;
+  color: #00B8D7;
 }
 
 .ft-price .ft-price-body .ft-price-list li:before {
-  color: #64B5F6
+  color: #00B8D7
 }
 
 .ft-price .ft-price-body .ft-price-list li.ft-empty-item:before {
-  color: #64B5F6
+  color: #00B8D7
 }
 
 .ft-testimonial .ft-testimonial-footer .ft-star-rate {
-  color: #64B5F6
+  color: #00B8D7
 }
 
 .ft-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #64B5F6;
+  background-color: #00B8D7;
 }
 
 .fancybox-progress {
-  background: #64B5F6;
+  background: #00B8D7;
 }
 
 .fancybox-thumbs__list a:before {
-  border-color: #64B5F6;
+  border-color: #00B8D7;
 }
 
 .ft-timeline .ft-timeline-item .ft-timeline-mark {
-  border: solid 3px #64B5F6;
+  border: solid 3px #00B8D7;
 }
 
 .ft-timeline-left .ft-timeline-left-item .ft-timeline-left-mark {
-  border: solid 3px #64B5F6;
+  border: solid 3px #00B8D7;
 }
 
 .ft-form-field textarea.ft-active {
-  border-color: #64B5F6;
+  border-color: #00B8D7;
 }
 
 .ft-form-field textarea:focus {
-  border-color: #64B5F6
+  border-color: #00B8D7
 }
 
 .ft-contact-form .ft-input.ft-active+label,
 .ft-contact-form .ft-input:focus+label {
-  background: #64B5F6;
+  background: #00B8D7;
 }
 
 .ft-pagination .ft-pagination-center a.ft-active-pag {
-  color: #64B5F6l
+  color: #00B8D7l
 }
 
 .ft-preloader-load path:last-child {
-  stroke: #64B5F6;
+  stroke: #00B8D7;
 }
 
 .ft-line-progress path:last-child {
-  stroke: #64B5F6;
+  stroke: #00B8D7;
 }
 
 .ft-cirkle-progress path:last-child {
-  stroke: #64B5F6;
+  stroke: #00B8D7;
 }
 
 .open-changer i {
-  color: #64B5F6;
+  color: #00B8D7;
 }

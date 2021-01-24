@@ -1,133 +1,133 @@
 .ft-sm-text {
-  color: #f44336;
+  color: #FE8A7D;
 }
 
 .ft-info-bar .ft-header .ft-avatar {
-  border: solid 2px #f44336;
+  border: solid 2px #FE8A7D;
 }
 
 .ft-link.ft-color-link {
-  color: #f44336
+  color: #FE8A7D
 }
 
 .ft-link.ft-color-link:hover {
-  color: #f44336;
+  color: #FE8A7D;
 }
 
 .ft-btn {
-  background: #f44336;
+  background: #FE8A7D;
 }
 
 blockquote {
-  background: #f44336;
+  background: #FE8A7D;
 }
 
 .ft-custom-list li:before {
-  border: solid 2px #f44336;
+  border: solid 2px #FE8A7D;
 }
 
 .ft-info-bar .ft-header .ft-avatar .ft-lamp-light .ft-available-lamp {
-  background: #f44336;
+  background: #FE8A7D;
 }
 
 .ft-info-bar .ft-name:hover a {
-  color: #f44336
+  color: #FE8A7D
 }
 
 .ft-info-bar .ft-knowledge-list li:before {
-  color: #f44336;
+  color: #FE8A7D;
 }
 
 .ft-menu-bar .ft-language-change li.ft-active-lang:hover {
-  background-color: #f44336;
+  background-color: #FE8A7D;
 }
 
 .ft-menu-bar nav .main-menu .menu-item.current-menu-item a:first-child {
-  color: #f44336;
+  color: #FE8A7D;
   text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
 }
 
 .ft-code i {
-  color: #f44336
+  color: #FE8A7D
 }
 
 .ft-counter-frame .ft-counter-box .ft-counter {
-  color: #f44336;
+  color: #FE8A7D;
 }
 
 .ft-counter-frame .ft-counter-box .ft-counter-plus {
-  color: #f44336;
+  color: #FE8A7D;
 }
 
 .ft-price.ft-popular-price:before {
-  background: #f44336
+  background: #FE8A7D
 }
 
 .ft-price .ft-price-body .ft-price-cost .ft-number {
-  color: #f44336;
+  color: #FE8A7D;
 }
 
 .ft-price .ft-price-body .ft-price-list li:before {
-  color: #f44336
+  color: #FE8A7D
 }
 
 .ft-price .ft-price-body .ft-price-list li.ft-empty-item:before {
-  color: #f44336
+  color: #FE8A7D
 }
 
 .ft-testimonial .ft-testimonial-footer .ft-star-rate {
-  color: #f44336
+  color: #FE8A7D
 }
 
 .ft-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #f44336;
+  background-color: #FE8A7D;
 }
 
 .fancybox-progress {
-  background: #f44336;
+  background: #FE8A7D;
 }
 
 .fancybox-thumbs__list a:before {
-  border-color: #f44336;
+  border-color: #FE8A7D;
 }
 
 .ft-timeline .ft-timeline-item .ft-timeline-mark {
-  border: solid 3px #f44336;
+  border: solid 3px #FE8A7D;
 }
 
 .ft-timeline-left .ft-timeline-left-item .ft-timeline-left-mark {
-  border: solid 3px #f44336;
+  border: solid 3px #FE8A7D;
 }
 
 .ft-form-field textarea.ft-active {
-  border-color: #f44336;
+  border-color: #FE8A7D;
 }
 
 .ft-form-field textarea:focus {
-  border-color: #f44336
+  border-color: #FE8A7D
 }
 
 .ft-contact-form .ft-input.ft-active+label,
 .ft-contact-form .ft-input:focus+label {
-  background: #f44336;
+  background: #FE8A7D;
 }
 
 .ft-pagination .ft-pagination-center a.ft-active-pag {
-  color: #f44336
+  color: #FE8A7D
 }
 
 .ft-preloader-load path:last-child {
-  stroke: #f44336;
+  stroke: #FE8A7D;
 }
 
 .ft-line-progress path:last-child {
-  stroke: #f44336;
+  stroke: #FE8A7D;
 }
 
 .ft-cirkle-progress path:last-child {
-  stroke: #f44336;
+  stroke: #FE8A7D;
 }
 
 .open-changer i {
-  color: #f44336;
+  color: #FE8A7D;
 }
