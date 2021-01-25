@@ -413,6 +413,45 @@
                                                     <label for="message"><i class="fa fa-envelope"></i></label>
                                                 </div>
                                                 <!-- form field end -->
+
+                                                <!-- form field -->
+                                                <div class="ft-form-field">
+                                                    <div class="rating ft-form-field">
+                                                        <div class="preference">
+                                                            <input type="radio" name="stars" value="1" />
+                                                            <span class="icon">★</span>
+                                                        </div>
+                                                        <div class="preference">
+                                                            <input type="radio" name="stars" value="2" />
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                        </div>
+                                                        <div class="preference">
+                                                            <input type="radio" name="stars" value="3" />
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                        </div>
+                                                        <div class="preference">
+                                                            <input type="radio" name="stars" value="4" />
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                        </div>
+                                                        <div class="preference">
+                                                            <input type="radio" name="stars" value="5" />
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                            <span class="icon">★</span>
+                                                        </div>
+                                                    </div>
+                                            
+                                                </div>
+                                                <!-- form field end -->
+
                                                 <!-- button -->
                                                 <div class="ft-submit-frame">
                                                     <button class="ft-btn ft-btn-md ft-submit" type="submit"><span>Send
@@ -570,6 +609,11 @@
 
     <!-- main js -->
     <script src="js/main.js"></script>
+    <script>
+        $(':radio').change(function () {
+            console.log('New star rating: ' + this.value);
+        });
+    </script>
 
 </body>
 

@@ -131,3 +131,15 @@ blockquote {
 .open-changer i {
   color: #FE8A7D;
 }
+.rating:not(:hover) .preference input:checked~.icon,
+.rating:hover .preference:hover input~.icon {
+  color: #FE8A7D;
+}
+
+.rating .preference input:focus:not(:checked)~.icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #FE8A7D;
+}
+.ft-menu-bar .ft-current-page a{
+  color: #FE8A7D;
+}

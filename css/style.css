@@ -81,9 +81,9 @@ Portfolio:  https://www.facebook.com/fahim.cse21
 
 /*
 $main-color: #aaaabf
-$main-color: #FE8A7D;
-$main-color:#00D09C;
-$main-color: #00B8D7;
+$main-color: #f44336;
+$main-color: #2F9E61;
+$main-color: #64B5F6;
 */
 
 /* ------------------------------
@@ -1657,7 +1657,6 @@ menu bar
     width: 200px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    color: #fafafc;
     position: absolute;
     overflow: hidden;
     top: 200px;
@@ -2330,6 +2329,77 @@ content
 }
 
 /* ----- contact form ----- */
+.preference {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.rating .preference {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating .preference:last-child {
+    position: static;
+}
+
+.rating .preference:nth-child(1) {
+    z-index: 5;
+}
+
+.rating .preference:nth-child(2) {
+    z-index: 4;
+}
+
+.rating .preference:nth-child(3) {
+    z-index: 3;
+}
+
+.rating .preference:nth-child(4) {
+    z-index: 2;
+}
+
+.rating .preference:nth-child(5) {
+    z-index: 1;
+}
+
+.rating .preference input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rating .preference .icon {
+    padding: 0px 15px;
+    float: left;
+    color: transparent;
+}
+
+.rating .preference:last-child .icon {
+    color: #000;
+}
+
+.rating:not(:hover) .preference input:checked~.icon,
+.rating:hover .preference:hover input~.icon {
+    color: #09f;
+}
+
+.rating .preference input:focus:not(:checked)~.icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #09f;
+}
 
 .ft-form-field input,
 .ft-form-field textarea {
